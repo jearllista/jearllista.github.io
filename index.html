@@ -61,7 +61,7 @@ footer .note{margin:0; color:var(--muted); font-size:14px}
 h2{color:#f0e6d2;text-transform:none;letter-spacing:-.01em;font-size:22px;font-weight:700}
 .card{background:#171410;border:1px solid #211c14;border-radius:16px;padding:20px}
 
-body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(#211c14 1px, transparent 1px);background-size:22px 22px}
+background-image:radial-gradient(#211c14 1px, transparent 1px);background-size:22px 22px;
 </style>
 </head>
 <body>
@@ -76,7 +76,7 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 
 <section class="about" id="about">
   <h2>关于</h2>
-  <p>缓存省钱测算是我这几年反复回到的问题。 当前以硕士阶段研究角色的方式推进项目。</p>
+  <p>缓存省钱测算是我这几年反复回到的问题。</p>
   <ul class="traits">
     <li>先问样本量够不够，再看指标好不好。</li>
     <li>区间比单点诚实。</li>
@@ -89,20 +89,12 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
   <div class="grid two">
     <article class="card">
       <h3>缓存省钱测算里的噪声来源与最小样本量</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>缓存省钱测算的判定依据与复核方式</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>缓存省钱测算里容易误判的情形与反例</h3>
-      <span class="status">持续跟进</span>
-    </article>
-    <article class="card">
-      <h3>在推进的问题</h3>
-      <p>（缓存省钱测算场景）缓存省钱测算的测量噪声主要来自哪里？用成本与资源核算估计噪声水平，并求出结论仍然稳定的最小样本量。</p>
-      <span class="status">进行中</span>
     </article>
   </div>
 </section>
@@ -110,9 +102,6 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 <section id="work">
   <h2>开源</h2>
   <ul class="repos">
-    <li><div class="name"><a href="https://github.com/jearllista/cost_budgeted_evaluation_0d39397b" rel="noopener">cost_budgeted_evaluation_0d39397b</a></div>
-      <div class="desc">（缓存省钱测算场景）缓存省钱测算的测量噪声主要来自哪里？用成本与资源核算估计噪声水平，并求出结论仍然稳定的最小样本量。</div>
-    </li>
     <li><div class="name"><a href="https://github.com/jearllista/savings" rel="noopener">savings</a></div>
       <div class="desc">按命中比例与缓存价格差计算节省额，并给出敏感性区间</div>
     </li>
